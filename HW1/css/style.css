@@ -1,0 +1,167 @@
+h1{
+    background-color: #000000;
+    border-radius: 0;
+    text-align: center;
+    font-size: 60px;
+    margin:0;
+    padding:15px;
+    width:100%;
+
+    /*gradients like the photo on Index.html */
+    background-image: linear-gradient(to right, #007BFF, #ff0000);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    }
+
+    h1:hover{
+        transition: transform 0.3s ease; 
+        display: inline-block;
+        transform: scale(1.2); 
+    }
+
+    h1:active{
+        color: rgb(0, 0, 0) ;
+    }
+#main_nav{
+    background-color: #580000; 
+    border-radius: 0;
+    padding: 15px;
+    text-align: center;
+    margin:0;
+    width:100%
+}
+
+#main_nav a{
+    display: incline-block;
+    background-color: #494949;
+    color:rgb(255, 255, 255);
+    padding: 10px 20px;
+    margin: 5px;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+#main_nav a:hover{
+    font-size: 1.2em;
+    color: rgb(250, 5, 5);
+}
+
+html,body{
+    background-image: linear-gradient(to right, #001327, #000000);
+    margin:0;
+    height: 100%;
+    margin: 0;           
+    padding: 0;
+
+}
+
+article{
+max-width: 700px;   
+  margin: 0;    
+  text-align: left;   
+  line-height: 1.5;   
+  padding: 10px;
+}
+
+img{
+    width: 370px;
+    height: 250px;
+    border-radius: 30px;
+    
+    
+}
+div{
+    border-color:rgb(255, 255, 255);
+    border : 10px;
+}
+*{
+    font-family: Arial, "Story Script", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+.column{
+    flex:33.33%;
+    padding:5px;
+}
+
+footer{
+    background-color: #000000;
+    color: #ffff;
+    text-align: center;
+    margin-top: auto;
+    border-radius: 0;
+    padding: 15px;
+    width: 100%;
+    font-size: small;
+}
+
+iframe{
+    display: block;
+    margin: auto;
+}
+
+table{
+    text-align: center;
+    margin: auto;
+}
+
+h3{
+    text-align: center;
+}
+
+ul,ol{
+    text-align: center;
+    padding-left: 0;
+    list-style-position: inside;
+    
+}
+
+main1{
+    color: white;
+    text-align: center;
+}
+
+h2{
+    text-align: center;
+    font-size: 30px;
+    
+}
+
+.img-text{
+    display:flex;
+    align-items: center;
+    gap: 15px;
+    justify-content: flex-start;
+
+}
+.img-text img{
+    width: 370px;
+    height: 250px;
+    border-radius: 30px;
+
+    
+}
+
+.img-text-long{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.img-text-long img{
+    height: 50%;
+}
+
+.Everyday{
+    padding-top: 100px;
+    padding-left: 100px;
+    
+}
+
+.img-text article,
+.img-text-long article {
+  margin-left: 40px;  
+}
