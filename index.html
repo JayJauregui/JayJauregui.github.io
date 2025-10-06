@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Sign Up Page</title>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h1>Sign Up Form</h1>
+
+<div id = "formBox">
+
+First Name: <input type="text" id="firstName"><br>
+Last Name: <input type="text" id="lastName"><br>
+Email: <input type="text" id="email"><br>
+Phone Number: <input type="text" id="phone"><br><br>
+
+Zip Code: <input type="text" id="zip"><button id="zipBtn">Check Zip</button><br>
+City: <span id="city"></span><br>
+Latitude: <span id="lat"></span><br>
+Longitude: <span id="long"></span><br>
+<p id="zipMessage" style="color:red;"></p>
+
+<br>
+
+State:
+<select id="stateSelect"></select><br>
+County:
+<select id="countySelect"></select><br><br>
+
+Desired Username: <input type="text" id="username"><span id="userMsg"></span><br>
+
+Password: <input type="password" id="password1"> <br>
+Retype Password: <input type="password" id="password2"><br>
+<p id="passMsg"></p>
+
+<input type="submit"  id="submit" value="Sign Up!">
+
+</div>
+
+</body>
+</html>
